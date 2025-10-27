@@ -26,3 +26,7 @@ minikube service nginx
 kubectl get svc
 - to delete the service
 kubectl delete service nginx
+- to get a particular pod in an environment
+kubectl get pods -n dev -o wide
+- to shorten kubectl
+alias k=kubectl
